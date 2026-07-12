@@ -1,0 +1,151 @@
+
+
+/* Shared Styles */
+.max-width{
+    max-width: 1140px;
+}
+
+.margin-center{
+    margin: 0 auto;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Colors */
+.orange-color{
+    color: rgba(233, 90, 8, 1);
+}
+
+
+
+
+/* Navbar Styles */
+.body{
+    background-color: rgba(245, 248, 255, 1);
+}
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.nav-link{
+    gap: 3rem;
+    font-size: 1rem;
+}
+
+.nav-link li{
+    list-style: none;
+}
+
+.nav-link a{
+    color: black;
+    text-decoration: none;
+}
+/* Banner Styles */
+.banner{
+    align-items: flex-end;
+}
+
+.banner-title{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.banner-description{
+    margin-bottom: 0;
+    margin-top: 0.8rem;
+    font-family: 1.375rem;
+}
+.banner-text-decoration{
+    /* color: rgba(233, 90, 8, 1); */
+}
+
+/* Our plants styles */
+.our-plants{
+    margin-top: 120px;
+}
+.our-plants-title{
+    font-size: 3.125rem;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+.our-plants-description{
+    width: 888px;
+    font-size: 1.375rem;
+}
+
+.our-plants-cards-container{
+    width: 270px;
+    height: 485px;
+}
+.plant-card-title{
+    font-size: 1.375rem;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: 500;
+
+}
+
+.plant-card-price{
+    margin-top: 20px;
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.our-plants-cards-container{
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+}
+.plant-card-button{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+/* Responsive website */
+
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+    /* navbar mobile styles */
+    .navbar{
+        /* justify-content: center; */
+        margin-bottom: 28px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .desktop-navbar{
+        display: none;
+    }
+    /* Banner mobile styles */
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-title{
+        font-size: 1.5rem;
+    }
+    .banner-description{
+        font-size: 0.875rem;
+    }
+    .banner-image{
+        width: 100%;
+    }
+
+}
