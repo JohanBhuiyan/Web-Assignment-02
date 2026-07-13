@@ -1,5 +1,4 @@
 
-
 /* Shared Styles */
 .max-width{
     max-width: 1140px;
@@ -22,11 +21,13 @@
     color: rgba(233, 90, 8, 1);
 }
 
-
+.border{
+    border: 3px solid steelblue;
+}
 
 
 /* Navbar Styles */
-.body{
+body{
     background-color: rgba(245, 248, 255, 1);
 }
 .navbar{
@@ -49,9 +50,6 @@
     text-decoration: none;
 }
 /* Banner Styles */
-.banner{
-    align-items: flex-end;
-}
 
 .banner-title{
     font-size: 4rem;
@@ -62,9 +60,9 @@
     margin-top: 0.8rem;
     font-family: 1.375rem;
 }
-.banner-text-decoration{
-    /* color: rgba(233, 90, 8, 1); */
-}
+/* .banner-text-decoration{
+    
+} */
 
 /* Our plants styles */
 .our-plants{
@@ -138,6 +136,10 @@
     .banner{
         flex-direction: column-reverse;
     }
+    .banner-image img{
+        max-width: 100%;
+        height: auto;
+    }
     .banner-title{
         font-size: 1.5rem;
     }
@@ -148,4 +150,15 @@
         width: 100%;
     }
 
+    /* Mobile Our plants style */
+    .our-plants{
+
+    }
+    .our-plants-description{
+        width: 100%;
+    }
+    .our-plants-cards-container{
+        grid-template-columns: 1fr;
+        margin: 28px auto 0;
+    }
 }
