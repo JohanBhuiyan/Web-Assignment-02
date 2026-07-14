@@ -386,6 +386,12 @@ input[type="submit"]{
     .latest-deal-description {
         margin-bottom: 51.5px;
     }
+    .right-image-1-offer-text{
+        font-size: 1.125rem;
+    }
+    .deal-right-image-1-link {
+        font-size: 1rem;
+    }
 
     /* Mobile colorful bunch */
     .colorful-bunch{
