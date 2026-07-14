@@ -244,7 +244,7 @@ body{
 
 /* Colorful Bunch Styles */
 .colorful-bunch{
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(assets/news-letter-bg.png);
     background-size: cover;
     background-repeat: none;
     position: relative;
