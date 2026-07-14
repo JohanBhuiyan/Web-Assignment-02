@@ -1,4 +1,19 @@
 
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 /* Shared Styles */
 .max-width{
     max-width: 1140px;
@@ -21,8 +36,8 @@
     color: rgba(233, 90, 8, 1);
 }
 
-.border{
-    border: 3px solid steelblue;
+.light-gray-color{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -247,6 +262,9 @@ body{
 .colorful-bunch-title{
     text-align: center;
     color: white;
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 23px;
 }
 
 .form-class{
@@ -262,6 +280,8 @@ input[type="submit"]{
     background-color: rgba(233, 90, 8, 1);
     border: none;
     color: white;
+    padding-left: 53px;
+    padding-right: 53px;
 } 
 
 /* Footer styles */
@@ -294,11 +314,6 @@ input[type="submit"]{
     text-decoration: none;
     font-size: 1rem;
 }
-
-
-
-
-
 
 
 /* Responsive website */
@@ -379,9 +394,17 @@ input[type="submit"]{
     }
 
     input[type="text"]{
-        padding: 15.5px 114px 15.5px 20px;
+        padding: 15.5px 80px 15.5px 20px;
     }
-    
+    input[type="submit"]{
+        padding-left: 10px;
+        padding-right: 10px;
+    } 
+
+    .colorful-bunch-title {
+        font-size: 1.125rem;
+    }
+
     /* Mobile footer styles */
     .footer-container{
         grid-template-columns: 1fr;
